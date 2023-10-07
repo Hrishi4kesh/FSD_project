@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta
+            name="description"
+            content="JourneyVerse is a place were you share your experience and the places you explored with the right audiance."/>
+        <meta
+            name="keywords"
+            content="travel, travel information, vacation, travel packages, Rajasthan, Gujrat, Maharastra, India States"
+            />
+        <meta name="author" content="Hrishikesh Bhatt, Gautam Rai, Hardikk Sharma" />
+        <link rel="icon" href="./img/travel.png" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+            rel="stylesheet"
+            />
+        <!-- CSS -->
+        <link rel="stylesheet" href="css/general.css" />
+        <link rel="stylesheet" href="css/style.css" />
+        <title>JourneyVerse</title>
+        <script defer src="js/script.js"></script>
+        <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.js"></script>
+    </head>
+    <body>
+        <!-- HEADER -->
+        <header class="header">
+            <a href="#">
+            <img class="logo" src="./img/travel.png" alt="JourneyVerse" />
+            </a>
+            <nav class="main-nav">
+                <ul class="main-nav-list">
+                    <li><a class="main-nav-link" href="#">Home</a></li>
+                    <li><a class="main-nav-link" href="#activities">Activities</a></li>
+                    <!-- <li><a class="main-nav-link" href="#locations">Locations</a></li> -->
+                    <li><a class="main-nav-link" href="#categories">Categories</a></li>
+                    <li><a class="main-nav-link" href="#blogs">Blog</a></li>
+                    <!-- <li>
+                        <a class="main-nav-link" href="#testimonials">Testimonials</a>
+                        </li> -->
+                    <li><a class="main-nav-link" href="#team">Team</a></li>
+                    <li><a class="main-nav-link nav-cta" href="#cta">Contact Us</a></li>
+                </ul>
+            </nav>
+            <button class="btn-mobile-nav">
+                <ion-icon class="icon-mobile-nav" name="menu"></ion-icon>
+                <ion-icon class="icon-mobile-nav" name="close"></ion-icon>
+            </button>
+        </header>
+        <!-- MAIN  -->
+        <main>
+            <!--  HERO  -->
+            <section class="section-hero">
+            <div class="hero-slider">
+                <div class="hero-slide hero-slide--1">
+                    <span class="subheading">City of Lakes</span>
+                    <h1 class="heading-primary hero-heading">Udaipur</h1>
+                    <p class="hero-description">
+                        Udaipur, the "City of Lakes,"
+                        nestled in the Aravalli Hills, captivates with its palaces,
+                        intricate architecture, and serene lakes. A regal gem.
+                    </p>
+                    <div class="hero-btns">
+                        <a class="btn btn--outline margin-right-sm" href="#activities"
+                            >Browse Activity</a
+                            >
+                        <a class="btn btn--full" href="#cta">Know Now</a>
+                    </div>
+                </div>
+                <div class="hero-slide hero-slide--2">
+                    <span class="subheading">City of Temples</span>
+                    <h1 class="heading-primary hero-heading">Varanasi</h1>
+                    <p class="hero-description">
+                        Varanasi, India's spiritual center on the Ganges,
+                        boasts 3,000 years of history, religious significance, 
+                        culture, education, and tourist attractions.
+                    </p>
+                    <div class="hero-btns">
+                        <a class="btn btn--outline margin-right-sm" href="#activities"
+                            >Browse Activity</a
+                            >
+                        <a class="btn btn--full" href="#cta">Know Now</a>
+                    </div>
+                </div>
+                <div class="hero-slide hero-slide--3">
+                    <span class="subheading">University</span>
+                    <h1 class="heading-primary hero-heading">JUET</h1>
+                    <p class="hero-description">
+                        Jaypee University of Engineering and Technology is an esteemed institution
+                        known for academic excellence, innovation, and holistic student development.
+                    </p>
+                    <div class="hero-btns">
+                        <a class="btn btn--outline margin-right-sm" href="#activities"
+                            >Browse Activity</a
+                            >
+                        <a class="btn btn--full" href="#cta">Know more </a>
+                    </div>
+                </div>
+                <button class="slider__btn hero-slider__btn--left">
+                <span>&larr;</span>
+                </button>
+                <button class="slider__btn hero-slider__btn--right">
+                <span>&rarr;</span>
+                </button>
+            </div>
+            <!--  ACTIVITIES  -->
+            <section class="section-activities" id="activities">
+                <div class="container">
+                    <span class="subheading center-text">Best Activities</span>
+                    <h2 class="heading-secondary center-text">
+                        Going Places
+                    </h2>
+                    <div class="activities-container grid grid--4-cols">
+                        <div class="activity">
+                            <figure class="activity-img">
+                                <img
+                                    src="img/activities/im.jpg"
+                                    alt="Istanbul Food Tour"
+                                    />
+                            </figure>
+                            <a href="#cta" class="activity-heading">Fateh Sagar</a>
+                            <ul class="activity-attributes">
+                                <li class="activity-attribute">
+                                    <ion-icon class="activity-icon" name="clock"></ion-icon>
+                                    <span><strong>3 </strong>hours</span>
+                                </li>
+                                <li class="activity-attribute">
+                                    <ion-icon class="activity-icon" name="pin"></ion-icon>
+                                    <span><strong>Udaipur, Rajasthan</strong></span>
+                                </li>
+                                <li class="activity-attribute">
+                                    <ion-icon class="activity-icon" name="star"></ion-icon>
+                                    <span><strong>4.8/5</strong> rating (344)</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="activity">
+                            <figure class="activity-img">
+                                <img src="img\activities\CityPalace.jpg" alt="City Palace" />
+                            </figure>
+                            <a href="#cta" class="activity-heading">City Palace</a>
+                            <ul class="activity-attributes">
+                                <li class="activity-attribute">
+                                    <ion-icon class="activity-icon" name="clock"></ion-icon>
+                                    <span><strong>4</strong> hours</span>
+                                </li>
+                                <li class="activity-attribute">
+                                    <ion-icon class="activity-icon" name="pin"></ion-icon>
+                                    <span><strong>Udaipur, Rajasthan</strong></span>
+                                </li>
+                                <li class="activity-attribute">
+                                    <ion-icon class="activity-icon" name="star"></ion-icon>
+                                    <span><strong>4.9/5</strong> rating (467)</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="activity">
+                            <figure class="activity-img">
+                                <img src="img\activities\Ghat.jpg" alt="Ghat" />
+                            </figure>
+                            <a href="#cta" class="activity-heading">Ganga Ghats</a>
+                            <ul class="activity-attributes">
+                                <li class="activity-attribute">
+                                    <ion-icon class="activity-icon" name="clock"></ion-icon>
+                                    <span><strong>5</strong> hours</span>
+                                </li>
+                                <li class="activity-attribute">
+                                    <ion-icon class="activity-icon" name="pin"></ion-icon>
+                                    <span><strong>Vatican City</strong></span>
+                                </li>
+                                <li class="activity-attribute">
+                                    <ion-icon class="activity-icon" name="star"></ion-icon>
+                                    <span><strong>4.7/5</strong> rating (289)</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="activity">
+                            <figure class="activity-img">
+                                <img src="img/activities/Louvre.jpg" alt="Louvre museum" />
+                            </figure>
+                            <a href="#cta" class="activity-heading">Louvre Museum Ticket</a>
+                            <ul class="activity-attributes">
+                                <li class="activity-attribute">
+                                    <ion-icon class="activity-icon" name="clock"></ion-icon>
+                                    <span><strong>2</strong> hours</span>
+                                </li>
+                                <li class="activity-attribute">
+                                    <ion-icon class="activity-icon" name="pin"></ion-icon>
+                                    <span><strong>Paris, France</strong></span>
+                                </li>
+                                <li class="activity-attribute">
+                                    <ion-icon class="activity-icon" name="star"></ion-icon>
+                                    <span><strong>4.8/5</strong> rating (223)</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--  CATEGORIES  -->
+            <section class="section-categories" id="categories">
+                <div class="container">
+                    <span class="subheading center-text">Categories</span>
+                    <h2 class="heading-secondary center-text">Browse By Category</h2>
+                    <div class="categories-container">
+                        <div class="category">
+                            <figure class="category-icon-container">
+                                <img
+                                    src="img/category-icons/attraction.svg"
+                                    alt="attraction icon"
+                                    class="category-icon"
+                                    />
+                            </figure>
+                            <h3 class="category-heading">Attraction</h3>
+                        </div>
+                        <div class="category">
+                            <figure class="category-icon-container">
+                                <img
+                                    src="img/category-icons/temple (1).png"
+                                    alt="caravan icon"
+                                    class="category-icon"
+                                    />
+                            </figure>
+                            <h3 class="category-heading">Temples</h3>
+                        </div>
+                        <div class="category">
+                            <figure class="category-icon-container">
+                                <img
+                                    src="img/category-icons/diving.svg"
+                                    alt="diving icon"
+                                    class="category-icon"
+                                    />
+                            </figure>
+                            <h3 class="category-heading">Diving</h3>
+                        </div>
+                        <div class="category">
+                            <figure class="category-icon-container">
+                                <img
+                                    src="img/category-icons/cruise.svg"
+                                    alt="cruise icon"
+                                    class="category-icon"
+                                    />
+                            </figure>
+                            <h3 class="category-heading">Cruise</h3>
+                        </div>
+                        <div class="category">
+                            <figure class="category-icon-container">
+                                <img
+                                    src="img/category-icons/city-travel.svg"
+                                    alt="city travel icon"
+                                    class="category-icon"
+                                    />
+                            </figure>
+                            <h3 class="category-heading">City Travel</h3>
+                        </div>
+                        <div class="category">
+                            <figure class="category-icon-container">
+                                <img
+                                    src="img/category-icons/food-drinks.svg"
+                                    alt="food and drinks icon"
+                                    class="category-icon"
+                                    />
+                            </figure>
+                            <h3 class="category-heading">Food & Drinks</h3>
+                        </div>
+                        <div class="category">
+                            <figure class="category-icon-container">
+                                <img
+                                    src="img/category-icons/beach.svg"
+                                    alt="beach icon"
+                                    class="category-icon"
+                                    />
+                            </figure>
+                            <h3 class="category-heading">Beach</h3>
+                        </div>
+                        <div class="category">
+                            <figure class="category-icon-container">
+                                <img
+                                    src="img/category-icons/camping.svg"
+                                    alt="camping icon"
+                                    class="category-icon"
+                                    />
+                            </figure>
+                            <h3 class="category-heading">Camping</h3>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--  BLOGS  -->
+            <section class="section-blogs" id="blogs">
+                <div class="container">
+                    <span class="subheading">Blog</span>
+                    <h2 class="heading-secondary heading-blogs">
+                        If you are interested in travel, check out these articles
+                    </h2>
+                    <div class="blogs-container">
+                        <div class="blog">
+                            <figure class="blog-img">
+                                <img src="img/blogs/IMG_0610.jpg" alt="Venice" />
+                                <div class="date">
+                                    <span class="date-day">20</span>
+                                    <span class="date-month-year">Jan/23</span>
+                                </div>
+                            </figure>
+                            <div class="blog-content">
+                                <div class="blog-tags">
+                                    <span class="tag tag--travel">Travel</span>
+                                    <span class="tag tag--attractions">Attractions</span>
+                                </div>
+                                <a class="blog-heading" href="#">
+                                What makes Venice of the most visited places in Italy
+                                </a>
+                                <p class="blog-text">
+                                    Venice is one of the most visited places in Italy. It is a
+                                    beautiful city with a lot of history and culture. It is also
+                                    known for its canals and bridges...
+                                </p>
+                                <a class="blog-link" href="#">Read more &rarr;</a>
+                            </div>
+                        </div>
+                        <div class="blog">
+                            <figure class="blog-img">
+                                <img src="img/blogs/he.jpg" alt="Plovdiv" />
+                                <div class="date">
+                                    <span class="date-day">15</span>
+                                    <span class="date-month-year">Jan/23</span>
+                                </div>
+                            </figure>
+                            <div class="blog-content">
+                                <div class="blog-tags">
+                                    <span class="tag tag--travel">Travel</span>
+                                    <span class="tag tag--experience">experiences</span>
+                                </div>
+                                <a class="blog-heading" href="#">
+                                5 different experiences you may have in Plovdiv
+                                </a>
+                                <p class="blog-text">
+                                    Plovdiv is an ancient city built around 7 hills, in southern
+                                    Bulgaria. It is also the oldest city in Europe. It is known
+                                    for its architecture and culture...
+                                </p>
+                                <a class="blog-link" href="#">Read more &rarr;</a>
+                            </div>
+                        </div>
+                        <div class="blog">
+                            <figure class="blog-img">
+                                <img src="img/blogs/IMG_20230920_183902.jpg" alt="Florence" />
+                                <div class="date">
+                                    <span class="date-day">7</span>
+                                    <span class="date-month-year">Feb/23</span>
+                                </div>
+                            </figure>
+                            <div class="blog-content">
+                                <div class="blog-tags">
+                                    <span class="tag tag--travel">Travel</span>
+                                    <span class="tag tag--places">places</span>
+                                </div>
+                                <a class="blog-heading" href="#">
+                                12 amazing places to visit and see in Florence.
+                                </a>
+                                <p class="blog-text">
+                                    Florence, capital of Italy’s Tuscany region, is home to many
+                                    masterpieces of Renaissance art and architecture. One of its
+                                    most iconic sights...
+                                </p>
+                                <a class="blog-link" href="#">Read more &rarr;</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--  TEAM  -->
+            <section class="section-team" id="team">
+                <div class="container">
+                    <span class="subheading">Our team</span>
+                    <h2 class="heading-secondary heading-team">
+                        Meet Our Explorers
+                    </h2>
+                    <div class="team-container">
+                        <div class="team">
+                            <figure class="team-img">
+                                <img src="./img/team/Core-1.jpg" alt="team member" />
+                            </figure>
+                            <div class="team-content">
+                                <h3 class="team-name">Hrishikesh Bhatt</h3>
+                                <span class="team-position">Core Team</span>
+                                <!--span class="team-activities">38 Activities</span-->
+                            </div>
+                        </div>
+                        <div class="team">
+                            <figure class="team-img">
+                                <img src="./img/team/Core-2.jpg" alt="team member" />
+                            </figure>
+                            <div class="team-content">
+                                <h3 class="team-name">Gautam Rai</h3>
+                                <span class="team-position">Core Team</span>
+                                <!--span class="team-activities">67 Activities</span-->
+                            </div>
+                        </div>
+                        <div class="team">
+                            <figure class="team-img">
+                                <img src="img\team\Hardikk.jpg" alt="team member" />
+                            </figure>
+                            <div class="team-content">
+                                <h3 class="team-name">Hardikk Sharma</h3>
+                                <span class="team-position">Core Team</span>
+                                <!--span class="team-activities">27 Activities</span-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--  CALL FORM  -->
+            <section class="section-cta" id="cta">
+                <div class="container">
+                    <span class="subheading center-text">Contact us</span>
+                    <h2 class="heading-secondary center-text">
+                        Get in Touch
+                    </h2>
+                    <div class="cta">
+                        <div>
+                            <h3 class="heading-tertiary cta-heading">
+                                Get an appointment at our office!
+                            </h3>
+                        </div>
+                        <form action="#" class="form cta-form" method="post">
+                            <div>
+                                <label for="full-name">Full Name</label>
+                                <input
+                                    id="full-name"
+                                    type="text"
+                                    placeholder="Hrishikesh Bhatt"
+                                    required
+                                    />
+                            </div>
+                            <div>
+                                <label for="email">Email</label>
+                                <input
+                                    id="email"
+                                    type="email"
+                                    placeholder="211b139@juetguna.in"
+                                    required
+                                    />
+                            </div>
+                            <div>
+                                <label for="phone">Phone</label>
+                                <input
+                                    id="phone"
+                                    type="tel"
+                                    pattern="[0]{1}[8-9]{1}[0-9]{8}"
+                                    placeholder="Your phone number"
+                                    required
+                                    />
+                            </div>
+                            <div>
+                                <label for="date">Date</label>
+                                <input id="date" type="date" required />
+                            </div>
+                            <div class="cta-message">
+                                <label for="message">Message</label>
+                                <textarea
+                                    id="message"
+                                    placeholder="Your message"
+                                    required
+                                    ></textarea>
+                            </div>
+                            <button class="btn btn--full" type="submit">Book Now</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <!-- FOOTER -->
+        <footer>
+            <div class="footer-container container">
+                <div class="footer-col-1">
+                    <a href="#"><img
+                        class="footer-logo"
+                        src="./img/travel.png"
+                        alt="logo"
+                        /></a>
+                    <p class="footer-text">
+                        This page is made for learning purposes only. Copyright ©
+                        <span class="year"></span>
+                        Hrishikesh Bhatt, Gautam Rai, Hardikk Sharma. All rights reserved.
+                    </p>
+                    <div class="social-media-logos">
+                        <a href="#">
+                            <ion-icon
+                                class="social-media-logo"
+                                name="logo-instagram"
+                                ></ion-icon>
+                        </a>
+                        <a href="#"
+                            >
+                            <ion-icon
+                                class="social-media-logo"
+                                name="logo-facebook"
+                                ></ion-icon
+                                >
+                        </a>
+                        <a href="#"
+                            >
+                            <ion-icon
+                                class="social-media-logo"
+                                name="logo-twitter"
+                                ></ion-icon
+                                >
+                        </a>
+                        <a href="#"
+                            >
+                            <ion-icon
+                                class="social-media-logo"
+                                name="logo-youtube"
+                                ></ion-icon
+                                >
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-col-4">
+                    <h4 class="footer-heading">Contact Us</h4>
+                    <div class="footer-contacts">
+                        <div class="footer-contact-item">
+                            <figure class="footer-figure">
+                                <ion-icon class="footer-icon" name="pin"></ion-icon>
+                            </figure>
+                            <span class="footer-detail">JUET, Guna</span>
+                            <span class="footer-detail-text">Meet us in the office</span>
+                        </div>
+                        <div class="footer-contact-item">
+                            <figure class="footer-figure">
+                                <ion-icon class="footer-icon" name="call"></ion-icon>
+                            </figure>
+                            <span class="footer-detail">+91 9024611775</span>
+                            <span class="footer-detail-text">Make a call</span>
+                        </div>
+                        <div class="footer-contact-item">
+                            <figure class="footer-figure">
+                                <ion-icon class="footer-icon" name="mail"></ion-icon>
+                            </figure>
+                            <a class="footer-detail" href="mailto:info@journeyverse.com"
+                                >info@journeyverse.com</a
+                                >
+                            <span class="footer-detail-text">Send us an email</span>
+                        </div>
+                        <div class="footer-contact-item">
+                            <figure class="footer-figure">
+                                <ion-icon class="footer-icon" name="clock"></ion-icon>
+                            </figure>
+                            <span class="footer-detail">10 AM - 6 PM (Sun)</span>
+                            <span class="footer-detail-text">Office hours</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/desvg@1.0.2/desvg.min.js"></script> -->
+    </body>
+</html>
