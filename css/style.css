@@ -1,12 +1,10 @@
 /* HEADER*/
-/******************************/
 
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: var(--accent-1);
-
   height: 8rem;
   padding: 0 4.8rem;
 }
@@ -14,12 +12,35 @@
 .logo {
   height: 4.6rem;
 }
+/* STICKY HEADER */
+.sticky {
+  padding-top: 8rem;
+}
+
+.sticky .header {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 8rem;
+  background-color: rgba(255, 242, 242, 0.795);
+  backdrop-filter: blur(10px);
+  z-index: 999;
+  box-shadow: 0 1.2rem 3.2rem rgb(0 0 0 / 4%);
+}
+
+.sticky .main-nav-link:link,
+.sticky .main-nav-link:visited {
+  color: var(--accent-1);
+}
+
+.sticky .main-nav-link:hover,
+.sticky .main-nav-link:active {
+  color: var(--shade-1);
+}
 
 
-/******************************/
 /* NAVIGATION*/
-/******************************/
-
 .main-nav-list {
   list-style: none;
   display: flex;
@@ -60,7 +81,6 @@
   border: none;
   background: none;
   cursor: pointer;
-
   display: none;
 }
 
@@ -75,7 +95,6 @@
 }
 
 /* HERO*/
-/******************************/
 .section-hero {
   position: relative;
 }
@@ -168,10 +187,7 @@
 }
 
 
-/******************************/
 /* ACTIVITIES */
-/******************************/
-
 .section-activities {
   padding: 19.6rem 0 11.4rem 0;
 }
@@ -303,10 +319,7 @@
   color: var(--accent-1);
 }
 
-/******************************/
 /* BLOGS */
-/******************************/
-
 .section-blogs {
   padding: 11.4rem 0;
   background-color: var(--tint-2);

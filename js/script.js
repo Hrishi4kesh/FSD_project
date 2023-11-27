@@ -1,8 +1,8 @@
 "use strict";
 
-// Trick to set the date input to today's date
+
 date.min = new Date().toISOString().split("T")[0];
-// Sticky navigation
+
 const sectionHeroEl = document.querySelector(".section-hero");
 const logoEl = document.querySelector(".logo");
 
@@ -26,17 +26,13 @@ const obs = new IntersectionObserver(
   }
 );
 obs.observe(sectionHeroEl);
-
-///////////////////////////////////////////////////////////
-// Making the mobile navigation work
+// Making the mobile navigation 
 const btnNavEl = document.querySelector(".btn-mobile-nav");
 const headerEl = document.querySelector(".header");
 
 btnNavEl.addEventListener("click", function () {
   headerEl.classList.toggle("nav-open");
 });
-
-///////////////////////////////////////////////////////////
 // Preventing the default behavior of the form
 const formEl = document.querySelectorAll(".form");
 
@@ -53,7 +49,7 @@ formEl.forEach(function (form) {
   });
 })
 
-///////////////////////////////////////
+
 // Button scrolling
 const allLinks = document.querySelectorAll("a:link");
 
@@ -79,7 +75,6 @@ allLinks.forEach(function (link) {
   });
 });
 
-///////////////////////////////////////
 // Changing the color of the svg icons using deSVG.js
 window.addEventListener('load', function () {
   deSVG('.category-icon', true);
